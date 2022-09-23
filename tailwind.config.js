@@ -8,8 +8,10 @@ module.exports = {
         "sm":"480px"
       },
         colors: {
-          brightRed: 'hsl(12, 80%, 59%)',
-          brightRedLight: 'hsl(12, 88%, 69%)',
+          ebonyBlue: '(221, 57%, 5%)',
+          deepBlue: 'hsl(220, 82%, 2%)',
+          lightBlue: 'hsl(221, 41%, 12%)',
+          veryLightBlue: 'hsl(219, 23%, 17%)',
         },
       spacing:{
         "big":"768px"
