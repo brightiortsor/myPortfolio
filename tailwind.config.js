@@ -4,22 +4,25 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
-      screens:{
-        "sm":"480px"
+      screens: {
+        sm: "480px",
       },
-        colors: {
-          ebonyBlue: '(221, 57%, 5%)',
-          deepBlue: 'hsl(220, 82%, 2%)',
-          lightBlue: 'hsl(221, 41%, 12%)',
-          veryLightBlue: 'hsl(219, 23%, 17%)',
-        },
-      spacing:{
-        "big":"768px"
-      }
+      colors: {
+        ebonyBlue: "(221, 57%, 5%)",
+        deepBlue: "hsl(220, 82%, 2%)",
+        lightBlue: "hsl(221, 41%, 12%)",
+        veryLightBlue: "hsl(219, 23%, 17%)",
+      },
+      spacing: {
+        big: "768px",
+      },
+      backgroundImage: {
+        aboutImg: "url('./images/about.svg')",
+      },
     },
-    fontFamily:{
-      nunito:['Nunito', 'sans-serif']
-    }
+    fontFamily: {
+      nunito: ["Nunito", "sans-serif"],
+    },
   },
   plugins: [],
-}
+};
