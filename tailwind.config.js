@@ -17,7 +17,8 @@ module.exports = {
         big: "768px",
       },
       backgroundImage: {
-        aboutImg: "url('./images/about.svg')",
+        aboutImg:
+          "url('/about.svg')",
       },
     },
     fontFamily: {
